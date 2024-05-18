@@ -1,0 +1,3 @@
+sdxl: 522.3973710536957
+Indian boy playing with toy
+quantized  77.17616772651672 time
