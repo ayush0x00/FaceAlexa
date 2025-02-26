@@ -15,6 +15,7 @@ def benchmark_fn(f, *args, **kwargs):
     return t0.blocked_autorange().mean * 1e6
 
 
+
 def load_pipeline(standard_sdxl=False):
     pipe = DiffusionPipeline.from_pretrained(MODEL_ID, variant="fp16")
     if not standard_sdxl:
